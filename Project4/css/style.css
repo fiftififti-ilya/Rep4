@@ -1,0 +1,95 @@
+/* Подключение файла css сброса стилей */
+@import "./reset.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-size: 14px;
+}
+
+.container {
+  padding: 0 30px;
+  max-width: 1230px;
+}
+
+/* header */
+
+.header {
+  padding-top: 46px;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+}
+
+/* header nav */
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  position: relative;
+  padding: 0 12px 3px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #000;
+}
+
+.logo::after {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fda300;
+  border-radius: 50%;
+}
+
+/* nav */
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active {
+  color: #606060;
+}
+
+/* header content */
+
+.header-row{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-heading{
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.header-content p {
+  line-height: 2;
+}
+
+.header-content{
+  margin-top: 124px;z
+  max-width: 500px;
+}
+
+.header-nav{
+  margin-bottom: 76px;
+}
