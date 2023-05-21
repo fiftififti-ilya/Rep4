@@ -93,3 +93,125 @@ body {
 .header-nav{
   margin-bottom: 76px;
 }
+
+/* service */
+
+.services{
+  padding: 90px 0;
+}
+
+.services-row{
+  display: flex;
+  column-gap: 30px;
+}
+
+.service-card{
+
+}
+
+.service-card-img{
+  margin-bottom: 30px;
+}
+
+.service-card-title{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.service-card p{
+  line-height: 2;
+}
+
+/* portfolio */
+
+.portfolio{
+  padding: 90px 0;
+  background-color: #F1F1F1;
+}
+
+
+.portfolio-title{
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.title-1{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.project{
+  text-align: center;
+}
+
+.project + .project{
+  margin-top: 90px;
+}
+
+.project-img{
+  margin-bottom: 40px;
+}
+
+.project-title{
+  font-size: 18px;
+}
+
+.project-title a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* contacts */
+
+.contacts{
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title{
+  margin-bottom: 40px;
+}
+
+.contacts-content{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contacts-button{
+  margin-bottom: 80px;
+}
+
+.button{
+  display: inline-block;
+  padding: 7px 22px;
+  background-color: #070707;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #fff;
+
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.button:hover, button:focus{
+  background-color: #323232;
+}
+
+.button:active{
+  position: relative;
+  top: 1px;
+  background-color: #000;
+}
+
+.contacts-social{
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contacts-footer{
+  color:#8282;
+}
